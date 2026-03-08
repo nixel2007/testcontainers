@@ -8,4 +8,6 @@ on:
 jobs:
   test:
     uses: autumn-library/workflows/.github/workflows/test.yml@v1
+    with:
+      test_engine: oneunit
     
